@@ -15,6 +15,9 @@
 		BE2417C32863566A00650FE5 /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417C22863566A00650FE5 /* MVPPresenter.swift */; };
 		BE2417C52863568100650FE5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417C42863568100650FE5 /* DataManager.swift */; };
 		BE2417C92863861200650FE5 /* MVPAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417C82863861200650FE5 /* MVPAssembly.swift */; };
+		BE2417CD286388F200650FE5 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417CC286388F200650FE5 /* MVVMViewController.swift */; };
+		BE2417CF2863890800650FE5 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417CE2863890800650FE5 /* MVVMViewModel.swift */; };
+		BE2417D328638C7C00650FE5 /* MVVMAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417D228638C7C00650FE5 /* MVVMAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BE2417C22863566A00650FE5 /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
 		BE2417C42863568100650FE5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		BE2417C82863861200650FE5 /* MVPAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPAssembly.swift; sourceTree = "<group>"; };
+		BE2417CC286388F200650FE5 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		BE2417CE2863890800650FE5 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		BE2417D228638C7C00650FE5 /* MVVMAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 				BE2417AF286354C400650FE5 /* SceneDelegate.swift */,
 				BE2417C42863568100650FE5 /* DataManager.swift */,
 				BE2417C1286355E800650FE5 /* MVP */,
+				BE2417CB286388C500650FE5 /* MVVM */,
 				BE2417B6286354C800650FE5 /* Assets.xcassets */,
 				BE2417B8286354C800650FE5 /* LaunchScreen.storyboard */,
 				BE2417BB286354C800650FE5 /* Info.plist */,
@@ -95,6 +102,32 @@
 				BE2417C22863566A00650FE5 /* MVPPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE2417CB286388C500650FE5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417D228638C7C00650FE5 /* MVVMAssembly.swift */,
+				BE2417D02863891D00650FE5 /* View */,
+				BE2417D12863892700650FE5 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		BE2417D02863891D00650FE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417CC286388F200650FE5 /* MVVMViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2417D12863892700650FE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417CE2863890800650FE5 /* MVVMViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2417CF2863890800650FE5 /* MVVMViewModel.swift in Sources */,
 				BE2417C32863566A00650FE5 /* MVPPresenter.swift in Sources */,
 				BE2417C92863861200650FE5 /* MVPAssembly.swift in Sources */,
+				BE2417D328638C7C00650FE5 /* MVVMAssembly.swift in Sources */,
+				BE2417CD286388F200650FE5 /* MVVMViewController.swift in Sources */,
 				BE2417C52863568100650FE5 /* DataManager.swift in Sources */,
 				BE2417B2286354C400650FE5 /* MVPViewController.swift in Sources */,
 				BE2417AE286354C400650FE5 /* AppDelegate.swift in Sources */,
