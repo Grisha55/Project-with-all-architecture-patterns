@@ -1,0 +1,1 @@
+# Project-with-all-architecture-patterns
