@@ -18,6 +18,16 @@
 		BE2417CD286388F200650FE5 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417CC286388F200650FE5 /* MVVMViewController.swift */; };
 		BE2417CF2863890800650FE5 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417CE2863890800650FE5 /* MVVMViewModel.swift */; };
 		BE2417D328638C7C00650FE5 /* MVVMAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417D228638C7C00650FE5 /* MVVMAssembly.swift */; };
+		BE2417D7286435E700650FE5 /* VIPERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417D6286435E700650FE5 /* VIPERViewController.swift */; };
+		BE2417DE2864371000650FE5 /* VIPERPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417DD2864371000650FE5 /* VIPERPresenter.swift */; };
+		BE2417E02864372700650FE5 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417DF2864372700650FE5 /* Interactor.swift */; };
+		BE2417E42864377A00650FE5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417E32864377A00650FE5 /* Router.swift */; };
+		BE2417E7286437FF00650FE5 /* RouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417E6286437FF00650FE5 /* RouterInput.swift */; };
+		BE2417E92864381D00650FE5 /* InteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417E82864381D00650FE5 /* InteractorInput.swift */; };
+		BE2417EB2864388A00650FE5 /* VIPERViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417EA2864388A00650FE5 /* VIPERViewInput.swift */; };
+		BE2417ED286438C000650FE5 /* VIPERViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417EC286438C000650FE5 /* VIPERViewOutput.swift */; };
+		BE2417EF2864393200650FE5 /* InteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417EE2864393200650FE5 /* InteractorOutput.swift */; };
+		BE2417F1286481A600650FE5 /* VIPERAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2417F0286481A600650FE5 /* VIPERAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,16 @@
 		BE2417CC286388F200650FE5 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		BE2417CE2863890800650FE5 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		BE2417D228638C7C00650FE5 /* MVVMAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAssembly.swift; sourceTree = "<group>"; };
+		BE2417D6286435E700650FE5 /* VIPERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERViewController.swift; sourceTree = "<group>"; };
+		BE2417DD2864371000650FE5 /* VIPERPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERPresenter.swift; sourceTree = "<group>"; };
+		BE2417DF2864372700650FE5 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		BE2417E32864377A00650FE5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BE2417E6286437FF00650FE5 /* RouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterInput.swift; sourceTree = "<group>"; };
+		BE2417E82864381D00650FE5 /* InteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorInput.swift; sourceTree = "<group>"; };
+		BE2417EA2864388A00650FE5 /* VIPERViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERViewInput.swift; sourceTree = "<group>"; };
+		BE2417EC286438C000650FE5 /* VIPERViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERViewOutput.swift; sourceTree = "<group>"; };
+		BE2417EE2864393200650FE5 /* InteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorOutput.swift; sourceTree = "<group>"; };
+		BE2417F0286481A600650FE5 /* VIPERAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,7 @@
 				BE2417C42863568100650FE5 /* DataManager.swift */,
 				BE2417C1286355E800650FE5 /* MVP */,
 				BE2417CB286388C500650FE5 /* MVVM */,
+				BE2417D5286435AF00650FE5 /* VIPER */,
 				BE2417B6286354C800650FE5 /* Assets.xcassets */,
 				BE2417B8286354C800650FE5 /* LaunchScreen.storyboard */,
 				BE2417BB286354C800650FE5 /* Info.plist */,
@@ -128,6 +149,55 @@
 				BE2417CE2863890800650FE5 /* MVVMViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2417D5286435AF00650FE5 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417DC286436FA00650FE5 /* View */,
+				BE2417E22864376100650FE5 /* Presenter */,
+				BE2417E12864375500650FE5 /* Interactor */,
+				BE2417E52864377F00650FE5 /* Router */,
+				BE2417F0286481A600650FE5 /* VIPERAssembly.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		BE2417DC286436FA00650FE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417D6286435E700650FE5 /* VIPERViewController.swift */,
+				BE2417EA2864388A00650FE5 /* VIPERViewInput.swift */,
+				BE2417EC286438C000650FE5 /* VIPERViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2417E12864375500650FE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417DF2864372700650FE5 /* Interactor.swift */,
+				BE2417E82864381D00650FE5 /* InteractorInput.swift */,
+				BE2417EE2864393200650FE5 /* InteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BE2417E22864376100650FE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417DD2864371000650FE5 /* VIPERPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE2417E52864377F00650FE5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BE2417E32864377A00650FE5 /* Router.swift */,
+				BE2417E6286437FF00650FE5 /* RouterInput.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,15 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2417EB2864388A00650FE5 /* VIPERViewInput.swift in Sources */,
 				BE2417CF2863890800650FE5 /* MVVMViewModel.swift in Sources */,
+				BE2417DE2864371000650FE5 /* VIPERPresenter.swift in Sources */,
+				BE2417EF2864393200650FE5 /* InteractorOutput.swift in Sources */,
 				BE2417C32863566A00650FE5 /* MVPPresenter.swift in Sources */,
+				BE2417ED286438C000650FE5 /* VIPERViewOutput.swift in Sources */,
+				BE2417E92864381D00650FE5 /* InteractorInput.swift in Sources */,
 				BE2417C92863861200650FE5 /* MVPAssembly.swift in Sources */,
 				BE2417D328638C7C00650FE5 /* MVVMAssembly.swift in Sources */,
 				BE2417CD286388F200650FE5 /* MVVMViewController.swift in Sources */,
+				BE2417E02864372700650FE5 /* Interactor.swift in Sources */,
+				BE2417D7286435E700650FE5 /* VIPERViewController.swift in Sources */,
 				BE2417C52863568100650FE5 /* DataManager.swift in Sources */,
+				BE2417E7286437FF00650FE5 /* RouterInput.swift in Sources */,
 				BE2417B2286354C400650FE5 /* MVPViewController.swift in Sources */,
+				BE2417F1286481A600650FE5 /* VIPERAssembly.swift in Sources */,
 				BE2417AE286354C400650FE5 /* AppDelegate.swift in Sources */,
 				BE2417B0286354C400650FE5 /* SceneDelegate.swift in Sources */,
+				BE2417E42864377A00650FE5 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
