@@ -22,7 +22,7 @@ class MVVMViewController: UIViewController {
         let button = UIButton()
         button.setTitle("Change label", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.addTarget(MVVMViewController.self, action: #selector(buttonDidPressed), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonDidPressed), for: .touchUpInside)
         return button
     }()
     
